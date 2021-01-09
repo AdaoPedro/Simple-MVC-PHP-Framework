@@ -1,6 +1,6 @@
 # Simple MVC PHP Framework. 
   
-That's all for now.
+This Repository is about source code of a very simple framework currently in development. we're using PHP programming language and MVC architectural pattern
 
 ## logbook. 
 **Jan, 09, 2021**.  
@@ -9,7 +9,7 @@ That's all for now.
 * Composer installation. 
 
 ###### Notes ######  
-I could undestand better how to configure composer.json file
+I could undestand better how to configure composer.json file  
   
   
   
