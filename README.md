@@ -1,4 +1,4 @@
-# Simple PHP MVC Framework. 
+# Simple MVC PHP Framework. 
   
 That's all for now.
 
