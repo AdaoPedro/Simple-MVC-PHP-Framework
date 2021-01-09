@@ -8,9 +8,9 @@ That's all for now.
 * Setting Framework's directory structure. 
 * Composer installation. 
 
-######Dificults######. 
+###### Dificults ######. 
 
-######Learning######. 
+###### Learning ######. 
 I could undestand better how to configure composer.json file
   
   
