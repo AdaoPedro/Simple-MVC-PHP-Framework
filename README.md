@@ -7,9 +7,10 @@ That's all for now.
 * Creating of the Repo. 
 * Setting Framework's directory structure. 
 * Composer installation. 
-- Dificults. 
 
-- Learning. 
+######Dificults######. 
+
+######Learning######. 
 I could undestand better how to configure composer.json file
   
   
