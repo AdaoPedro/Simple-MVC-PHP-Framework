@@ -6,7 +6,7 @@ This Repository is about source code of a very simple framework currently in dev
 **Jan, 09, 2021**.  
 * Creating of the Repo. 
 * Setting Framework's directory structure. 
-* Composer installation. 
+* Composer (Package Manager) installation. 
 
 ###### Notes ######  
 I could undestand better how to configure composer.json file  
