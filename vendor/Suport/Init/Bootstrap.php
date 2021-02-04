@@ -27,8 +27,7 @@
 			$routes = $this->getRoutes();
 			foreach($routes as $key => $route){
 				if($url == $route["uri"]){
-					$controllerDir = str_replace("Controller", "Controllers", $route["controller"]);
-					$classToInstant = "App\\Controller\\" . $controllerDir . "\\" . $route["controller"];
+					$classToInstant = "App\\Controller\\" . $route["controller"];
 					$controller = new $classToInstant();
 					$action = $route["action"];
 					$controller->$action();
