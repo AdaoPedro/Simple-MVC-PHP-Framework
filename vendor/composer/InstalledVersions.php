@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '7168ba79fb292c0c8ae02c0b59adf651f7498445',
+    'reference' => 'c153b1d09fd5e462b170c47f3aee6b56fcc01149',
     'name' => 'mvc-php/simple-framework',
   ),
   'versions' => 
@@ -41,7 +41,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '7168ba79fb292c0c8ae02c0b59adf651f7498445',
+      'reference' => 'c153b1d09fd5e462b170c47f3aee6b56fcc01149',
     ),
   ),
 );
