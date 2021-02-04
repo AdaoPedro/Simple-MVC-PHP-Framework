@@ -1,11 +1,19 @@
 <?php
 
-	namespace App\Controller\IndexController;
+	namespace App\Controller\IndexControllers;
 
 	class IndexController{
 
 		public function __construct(){
-			echo "<br>Now we're communicating to Controllers.";
+			
+		}
+
+		public function index(){
+			echo "This is the Home page";
+		}
+
+		public function about(){
+			echo "This is the About page";
 		}
 
 

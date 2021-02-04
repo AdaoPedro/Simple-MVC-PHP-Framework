@@ -1,14 +1,13 @@
 <?php
 
-	require_once __DIR__. "/../vendor/autoload.php";
+	require_once __DIR__ . "/../vendor/autoload.php";
 
-	use App\Controller\IndexControllers;
+	use App\Core\Route;
 
-	$indexController = new IndexController();
-
+	$route = new Route();
 	
 
-	echo "This is the entry point of Simple MVC PHP Framework";
+
 
 
 
