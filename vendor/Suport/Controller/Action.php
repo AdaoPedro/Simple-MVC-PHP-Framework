@@ -10,7 +10,11 @@
         }
         
         public function render($layout){
-			require_once "../App/View/layout/" . $layout . ".phtml";
+			if(!file_exists("../App/View/layout/" . $layout . ".phtml") || $layout == ""){
+				$this->content();
+			} else {
+				require_once "../App/View/layout/" . $layout . ".phtml";
+			}
         }
         
         public function content(){

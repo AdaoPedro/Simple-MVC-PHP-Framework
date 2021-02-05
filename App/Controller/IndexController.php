@@ -3,25 +3,17 @@
 	namespace App\Controller;
 
 	use Suport\Controller\Action;
+	use Suport\Model\Container;
+	use App\Model\Produto;
 
 	class IndexController extends Action{
 
 		public function index(){
-			$clientes = array(
-				[
-					"id" => 91029,
-					"nome" => "Alberto Fonseca",
-					"morada" => "Centro da Cidade"
-				],
-				[
-					"id" => 91029,
-					"nome" => "Alberto Fonseca",
-					"morada" => "Centro da Cidade"
-				],
-			);
-
 			
-			$this->view->dados = $clientes;
+			$produto = Container::getModel("Produto");
+			$arrProdutos = $produto->getProdutos();
+
+			$this->view->dados = $arrProdutos;
 			$this->view->page = "index";
 			$this->render("layout1");
 		}
